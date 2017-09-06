@@ -1,0 +1,12 @@
+var o1 = { foo: 'bar' };
+     var o2 = { foo: 'bar'};
+     var o3 = o2;
+console.log(o1);
+console.log(o2);
+console.log(o3);
+console.log('The Changing');
+o2.foo = o2.foo + ' ' +  'man';
+o1.foo = o1.foo + ' ' + ' time';
+console.log(o1);
+console.log(o2);
+console.log(o3);
