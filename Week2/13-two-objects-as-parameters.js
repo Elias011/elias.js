@@ -58,7 +58,7 @@ function compare(ts1, ts2){
     } else {
         console.log("false");  
     }
-    if (x == y && m == e && z == v && u == n){
+    if (x === y && m === e && z === v && u === n){
         console.log("true");
     } else{
         console.log("false");
