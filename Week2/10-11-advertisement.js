@@ -1,6 +1,6 @@
 let garage = {
-    ad1: "Motor,",
-    ad2: "Cars,",
+    ad1: "Motor, ",
+    ad2: "Cars, ",
     ad3: "caravan ",
     ad4: "and bikes"
 };
