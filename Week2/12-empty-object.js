@@ -1,2 +1,2 @@
 let object = {};
-console.log("Empty object");
+console.log(object);
