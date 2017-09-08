@@ -17,4 +17,4 @@ function vehicle (color, code, age){
    }
     return;
 }
-vehicle('green', 3, 0);
+vehicle('green', 3, 1);
