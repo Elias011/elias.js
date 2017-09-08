@@ -1,13 +1,13 @@
 function vehicle (color, code, age){
-   //Used
-    if (code === 1 && age < 0){
+   //New
+    if (code === 1 && age > 0){
        console.log("a" + " " + color + " " + "new car");
-   }else if (code === 2 && age < 0){
+   }else if (code === 2 && age > 0){
        console.log("a" + " " + color + " " + "new motor");
-   }else if (code === 3 && age < 0){
+   }else if (code === 3 && age > 0){
        console.log("a" + " " + color + " " + "new caravan");
    }
-    //New
+    //Used
     if (code === 1 && age === 0){
        console.log("a" + " " + color + " " + "used car");
    }else if (code === 2 && age === 0){
