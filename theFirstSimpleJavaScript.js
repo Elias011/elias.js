@@ -4,9 +4,7 @@ let x = 5
 
 //------2-------
 //How do you round the number 7.25, to the nearest integer?
-let x = 7.25;
-math.round(x);
-
+Math.round(7.25);
 //------3-------
 //Create a array called colors with the strings red, green and blue inside.
 let color = ['green', 'red', 'blue'];
