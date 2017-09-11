@@ -1,12 +1,6 @@
-let garage = {
-    ad1: "Motor, ",
-    ad2: "Cars, ",
-    ad3: "caravan ",
-    ad4: "and bikes"
-};
-
+let garage = ["Motor, ", "Car, ", "Caravan, ","and bikes"]
 let x = " ";
-for(let i in garage){
+for(i = 0; i < garage.length; i++){
   x = x + garage[i];
 }
  console.log( "Amazing Joe's Garage, we service" + " " + x); 
