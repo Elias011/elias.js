@@ -6,8 +6,8 @@ function vehicleType(color, code){
   }else {
       console.log("a" + " " + color + " " + "something");
   }
-    return;
+   
 }
 
 
-vehicleType("blue", 2);
+vehicleType("blue", 2)
