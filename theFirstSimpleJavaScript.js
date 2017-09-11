@@ -8,7 +8,7 @@ Math.round(7.25);
 //------3-------
 //Create a array called colors with the strings red, green and blue inside.
 let color = ['green', 'red', 'blue'];
-alert(color.length);
+console.log(color.length);
 //-----4--------
 //How can you find the length of the string you just created?
 let color = ['green', 'red', 'blue'];
@@ -39,8 +39,8 @@ let name=['Elias', 25, 'Shikh Alshabab', 1991];
 let x = 6/0;
 let y = 10/0;
 if ( x == y){
-alert('Equal');
+console.log('Equal');
 }
 else{
-alert('Not Equal');
+console.log('Not Equal');
 }
