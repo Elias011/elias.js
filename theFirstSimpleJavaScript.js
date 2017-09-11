@@ -27,7 +27,7 @@ else{
 }
 
 //-----6--------
-If x equals 7, and the only other statement is x = x % 3, what would be the new value of x?
+//If x equals 7, and the only other statement is x = x % 3, what would be the new value of x?
 let x = 7;
 console.log(x = x % 3);
 
