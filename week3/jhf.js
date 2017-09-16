@@ -56,7 +56,7 @@ let info = {
 
 
 function myList(){
-let mainTitle = document.createElement('p1');
+let mainTitle = document.createElement('p');
 document.body.appendChild(mainTitle);
 mainTitle.innerHTML = '<strong>"Read as much as you can.Nothing will help you as much as reading"<strong>';    
 let ul = document.createElement('ul');
