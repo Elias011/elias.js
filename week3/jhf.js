@@ -78,12 +78,10 @@ h1.setAttribute("id", info[i].title);
     let h2=document.createElement('h2');//to controle the author of the book
     li.appendChild(h2);
     h2.innerHTML = info[i].Author;       
-h2.setAttribute("id", info[i].Author);
     
      let h3=document.createElement('h3');//to controle the language of the book    
     li.appendChild(h3);
-    h3.innerHTML = info[i].Language;
-h3.setAttribute("id", info[i].Language); 
+    h3.innerHTML = info[i].Language; 
 }
 }
 myList();
